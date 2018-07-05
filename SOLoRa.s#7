@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.1">
+<eagle version="9.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -9878,7 +9878,6 @@ PTH and SMD connector options available.&lt;/p&gt;
 <part name="U$31" library="microbuilder" deviceset="MOUNTINGHOLE" device="2.5"/>
 <part name="U$32" library="microbuilder" deviceset="MOUNTINGHOLE" device="2.5"/>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
-<part name="U$3" library="microbuilder" deviceset="VBUS" device=""/>
 <part name="J1" library="microbuilder" deviceset="USB" device="_MICRO_20329_V2" value="microUSB"/>
 <part name="U$19" library="microbuilder" deviceset="VBUS" device=""/>
 <part name="JP1" library="microbuilder" deviceset="HEADER-1X16" device="ROUND"/>
@@ -9984,7 +9983,7 @@ PTH and SMD connector options available.&lt;/p&gt;
 LiFePo4 Cell
 (Use with Solar
 Cell only)</text>
-<text x="157.734" y="161.544" size="1.778" layer="94">From
+<text x="160.274" y="161.544" size="1.778" layer="94">From
 USB</text>
 <text x="135.128" y="164.084" size="1.778" layer="94" align="bottom-center">Solar or LiPo Battery
 Power Input</text>
@@ -10030,7 +10029,6 @@ Pads</text>
 <instance part="U$31" gate="G$1" x="124.46" y="7.62"/>
 <instance part="U$32" gate="G$1" x="116.84" y="7.62"/>
 <instance part="+3V4" gate="G$1" x="223.52" y="170.18" rot="MR0"/>
-<instance part="U$3" gate="G$1" x="160.02" y="157.48"/>
 <instance part="J1" gate="G$1" x="17.78" y="147.32"/>
 <instance part="U$19" gate="G$1" x="147.32" y="76.2" rot="R90"/>
 <instance part="JP1" gate="A" x="200.66" y="63.5" rot="R180"/>
@@ -10450,20 +10448,17 @@ Pads</text>
 <wire x1="30.48" y1="152.4" x2="27.94" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="152.4" x2="45.72" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="172.72" x2="160.02" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="VBUS"/>
 <junction x="160.02" y="147.32"/>
 <pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="175.26" y1="147.32" x2="165.1" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="147.32" x2="160.02" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="147.32" x2="160.02" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="147.32" x2="160.02" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="154.94" x2="160.02" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <junction x="165.1" y="147.32"/>
 <pinref part="D1" gate="G$1" pin="K"/>
 <pinref part="IC1" gate="G$1" pin="IN"/>
-<wire x1="160.02" y1="172.72" x2="160.02" y2="154.94" width="0.1524" layer="91"/>
-<junction x="160.02" y="154.94"/>
+<wire x1="160.02" y1="172.72" x2="160.02" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="VBUS"/>
 <wire x1="30.48" y1="157.48" x2="30.48" y2="152.4" width="0.1524" layer="91"/>
 <junction x="30.48" y="152.4"/>

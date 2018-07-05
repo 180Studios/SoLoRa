@@ -10180,7 +10180,7 @@ Pads</text>
 <pinref part="U6" gate="G$1" pin="EN"/>
 <wire x1="170.18" y1="137.16" x2="175.26" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="137.16" x2="175.26" y2="142.24" width="0.1524" layer="91"/>
-<label x="167.64" y="137.414" size="1.778" layer="95"/>
+<label x="168.402" y="130.048" size="1.778" layer="95"/>
 <wire x1="170.18" y1="137.16" x2="170.18" y2="132.08" width="0.1524" layer="91"/>
 <junction x="170.18" y="137.16"/>
 </segment>
