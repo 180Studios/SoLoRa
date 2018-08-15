@@ -1,0 +1,16 @@
+{
+    "author": {
+        "email": "heyjoe.miller@yahoo.com",
+        "name": "Joe Miller"
+    },
+    "description": {
+        "EN": "CAM job description goes here."
+    },
+    "output_type": "directory",
+    "outputs": [
+    ],
+    "timestamp": "2018-08-04T21:34:18",
+    "type": "EAGLE CAM job",
+    "units": "metric",
+    "version": "8.6.1"
+}
